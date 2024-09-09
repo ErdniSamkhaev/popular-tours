@@ -1,0 +1,22 @@
+.popular-tours {
+  margin: 0 0 60px;
+}
+
+.popular-tours__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.popular-tours__item--size-M {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.popular-tours__item-size-M-right {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
