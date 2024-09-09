@@ -126,4 +126,5 @@
 .card-tour__btns-wrap {
   display: flex;
   gap: 13px;
+  margin-top: auto;
 }
