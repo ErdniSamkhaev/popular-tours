@@ -1,3 +1,15 @@
+.season {
+  margin: 0 0 80px;
+}
+
+.season__item--feedback {
+  grid-column: span 2;
+}
+
+.season__item--size-M {
+  grid-row: span 2;
+}
+
 .season__title {
   font-size: 36px;
   font-weight: 700;
@@ -12,8 +24,5 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr) 380px;
-}
-
-.season__item {
-  background: #e0e5fa;
+  gap: 20px;
 }

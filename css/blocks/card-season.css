@@ -1,0 +1,64 @@
+.card-season {
+  background: #e0e5fa;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.card-season--feedback {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(87.12deg, #5839b0 1.65%, #4162b8 100%);
+}
+
+.card-season__feedback-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-season--green {
+  background: #d2e8e5;
+}
+
+.card-season--blue {
+  background: #e0effa;
+}
+
+.card-season__img {
+  border: 4px solid #9e5fc4;
+  border-radius: 200px;
+  margin: 0 auto 20px;
+}
+
+.card-season--feedback .card-season__img {
+  border: none;
+}
+
+.card-season__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #9e5fc4;
+  margin: 0;
+}
+
+.card-season__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.card-season__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 0 20px;
+}
