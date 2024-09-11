@@ -34,11 +34,11 @@
   color: #9e5fc4;
 }
 
-.card-tour__title--black {
+.card-tour__title-black {
   color: #000000;
 }
 
-.card-tours__label-list {
+.card-tour__label-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
