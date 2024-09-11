@@ -11,10 +11,6 @@
   list-style-type: none;
 }
 
-.popular-tours__item--size-M {
-  grid-column: 1 / 3;
-}
-
-.popular-tours__item-size-M-right {
-  grid-column: 2 / 4;
+.popular-tours__item--size-right {
+  grid-column: span 2;
 }

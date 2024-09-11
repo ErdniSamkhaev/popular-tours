@@ -32,16 +32,20 @@
   letter-spacing: -0.02em;
   margin: 0;
   color: #9e5fc4;
-  font-weight: 700;
 }
 
 .card-tour__title--black {
   color: #000000;
 }
 
-.card-tour__label-info {
+.card-tours__label-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  margin: 0 0 0 auto;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card-tour__label {
@@ -76,8 +80,7 @@
   margin: 0 0 90px;
 }
 
-.card-tour--size-xs 
-.card-tour__text {
+.card-tour--size-xs .card-tour__text {
   margin: 0 0 15px;
 }
 
@@ -101,8 +104,7 @@
   margin: 0;
 }
 
-.card-tour--size-xs 
-.card-tour__price-wrapper {
+.card-tour--size-xs .card-tour__price-wrapper {
   margin: 0 0 30px;
 }
 
@@ -123,7 +125,7 @@
   line-height: 18px;
 }
 
-.card-tour__btns-wrap {
+.card-tour__btns {
   display: flex;
   gap: 13px;
   margin-top: auto;
