@@ -32,6 +32,7 @@
   letter-spacing: -0.02em;
   margin: 0;
   color: #9e5fc4;
+  flex-shrink: 0;
 }
 
 .card-tour__title-black {
